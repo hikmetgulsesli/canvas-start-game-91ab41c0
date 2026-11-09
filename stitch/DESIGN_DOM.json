@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-11-09T00:49:51.421Z",
+  "screenCount": 1,
+  "screens": {
+    "4ec80e65aa514bc589ebca3925056fa4": {
+      "screenId": "4ec80e65aa514bc589ebca3925056fa4",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "header",
+          "layout": "flex-row",
+          "classes": [
+            "border-b",
+            "border-slate-800",
+            "bg-slate-900/60",
+            "backdrop-blur",
+            "px-8",
+            "py-4",
+            "flex",
+            "items-center",
+            "justify-between"
+          ],
+          "childCount": 7
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "flex-1",
+            "max-w-6xl",
+            "w-full",
+            "mx-auto",
+            "p-8",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center"
+          ],
+          "childCount": 7
+        },
+        {
+          "tag": "footer",
+          "layout": "block",
+          "classes": [
+            "border-t",
+            "border-slate-800/80",
+            "py-4",
+            "px-8",
+            "text-center",
+            "text-xs",
+            "text-slate-500"
+          ],
+          "childCount": 0
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "classes": [
+            "px-8",
+            "py-3",
+            "bg-indigo-600",
+            "hover:bg-indigo-500",
+            "active:bg-indigo-700",
+            "text-white",
+            "font-semibold",
+            "rounded-lg",
+            "shadow-lg",
+            "shadow-indigo-600/30",
+            "transition-colors",
+            "focus:outline-none",
+            "focus:ring-2",
+            "focus:ring-indigo-400",
+            "focus:ring-offset-2",
+            "focus:ring-offset-slate-950"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {},
+      "fonts": [],
+      "layoutHints": {
+        "flexDirection": "col"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "Start",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [],
+      "title": "Play page - Canvas Start Game"
+    }
+  }
+}
